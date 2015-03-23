@@ -1,0 +1,52 @@
+body{
+	background-color: #EC4E4E;
+}
+h1{
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+}
+#gameBox{
+	border: 4px solid #fff;
+	width: 440px;
+	height: 450px;
+	margin: auto;
+	padding: 10	px;
+	background-color: #E2DF9A;
+	border-radius: 15px;
+	color: #fff;
+	font-size: 30px;
+}
+.row{
+	margin:5px auto;
+	clear: both;
+}
+.gameCell{
+	float:left;
+	margin: 2px;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	width:80px;
+	height: 80px;
+	text-align: center;
+	background-color: #031C28;
+}
+#score{
+	color:#fff;
+	margin-top: 30px;
+	font-size: 30px;
+	text-align: center;
+}
+#gameOver{
+	display: none;
+	position: absolute;
+	width: 60%;
+	height: 40%;
+	top:10%;
+	left: 10%;
+	background-color: rgba(50,50,55, .85);
+	font-size: 700%;
+	padding:10%;
+	color: orange;
+	text-align: center;
+}
